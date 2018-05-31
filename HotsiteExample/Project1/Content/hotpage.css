@@ -1,0 +1,200 @@
+﻿* {
+    margin: 0 auto;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* HEADER */
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color: #4885ed;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    /*vertical*/
+    justify-content: center;
+    /*horizontal*/
+    position: fixed;
+    display: flex;
+    font-size: 1em;
+    z-index: 1;
+    transition: all .3s;
+}
+
+header h1 {
+    text-align: center;
+    padding: 0px 40px;
+    margin: 0;
+    position: absolute;
+}
+
+#icone_photo {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    top: 18px;
+}
+
+.icone_photo_menor {
+    max-width: 50px !important;
+    max-height: 50px !important;
+    top: 5px !important;
+}
+
+.header_fixed {
+    font-size: 0.7em;
+    height: 60px;
+}
+
+
+/* MAIN */
+
+main {
+    padding-top: 120px;
+}
+
+main h2 {
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.section-info {
+    padding: 60px 60px;
+}
+
+
+/* PARALLAX */
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*NAV - ITENS FLUTUANTES*/
+
+nav {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 2;
+}
+
+nav .menu {
+    background-color: #fffc00;
+    border-radius: 50%;
+    color: #000;
+    cursor: pointer;
+    height: 50px;
+    line-height: 60px;
+    text-align: center;
+    width: 50px;
+    align-items: center;
+}
+
+nav .menu i {
+    margin-top: 12px;
+}
+
+.nav-itens {
+    position: absolute;
+    top: -160;
+    right: 6px;
+    opacity: 0;
+    transition: all 0.3s;
+    pointer-events: none;
+}
+
+.nav-itens a {
+    display: block;
+    margin: 10px 0;
+    color: #000;
+    background-color: #fffc00;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nav-itens a i {
+    margin-top: 8px;
+}
+
+.nav-show {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+/* TOOLTIP */
+
+.text_tooltip {
+    background-color: #fffc00;
+    width: 120px;
+    text-decoration: none;
+    padding: 0px 5px;
+    position: absolute;
+    right: 60px;
+    height: 25px;
+    margin-top: -15px;
+    opacity: 0;
+    transition: all .2s;
+}
+
+.text_tooltip:after {
+    content: "";
+    border-top: 0px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #fffc00;
+    position: absolute;
+    right: -10px;
+    top: 0px;
+}
+
+
+/* PARALLAX */
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.parallax img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(-50%);
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #4885ed;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    height: 150px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
