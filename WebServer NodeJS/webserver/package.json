@@ -1,0 +1,17 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "Criando um webserver simples em NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "webserver",
+    "aprendendo",
+    "javascript"
+  ],
+  "author": "Richiely Batista",
+  "license": "ISC"
+}
